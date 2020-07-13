@@ -27,7 +27,8 @@ h2{
 }
 .detail{
   text-align: justify;
-  font-size: 3vw;
+  font-size: 2vw;
+  padding:10px;
 
 }
 .mainpic{
