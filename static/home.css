@@ -15,7 +15,7 @@ h2{
 }
 .heading{
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 4vw;
   margin: auto;
   text-align: center;
   border-bottom: solid;
@@ -27,7 +27,7 @@ h2{
 }
 .detail{
   text-align: justify;
-  font-size: 16px;
+  font-size: 2vw;
   padding:20px;
 
 }
