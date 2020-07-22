@@ -15,10 +15,12 @@ h2{
 }
 .container-projects{
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: auto;
+  flex-wrap: nowrap;
+  align-items: center;
 
+}
+.container-projects a{
+  display: inline;
 }
 .project-img{
   display: inline;
