@@ -101,14 +101,50 @@ h2{
   display: inline-block;
   margin:0px;
 }
-
-.topnav {
-  background-color: #333;
+.nav {
   overflow: hidden;
-  margin:0px;
   width:100%;
   display: inline-block;
   margin:0px;
+}
+.nav a{
+  float: left;
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0px;
+  width: 45%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1vw;
+}
+.nav #JoinUs{
+  background-color:#148a14;
+  color:white;
+}
+.nav #Donate{
+  color:#148a14;
+}
+.nav #JoinUs:hover{
+  background-color:black;
+  color:white;
+}
+.nav #Donate:hover{
+  background-color:black;
+  color:white;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width:100%;
+  display: inline-block;
+  margin:0px;
+}
+
+.sticky{
+ position: fixed;
+ top: 0;
+ width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -156,6 +192,10 @@ h2{
   }
   .project-img{
     width: 90%;
+  }
+  .nav a{
+    width: 100%;
+    font-size: 2vw;
   }
 }
 
