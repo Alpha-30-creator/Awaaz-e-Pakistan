@@ -9,6 +9,21 @@ h2{
   padding-right: 10px;
   font-family: "Montserrat"
 }
+button{
+  width: 100%;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: "2vw";
+  background-color:#148a14;
+  color: black;
+  padding: 15px 0px;
+  margin: 10px 0px;
+  border-radius: 50px;
+}
+button:hover, button:active{
+  background-color: black;
+  color: #148a14;
+}
 .Section{
   text-align: center;
 
