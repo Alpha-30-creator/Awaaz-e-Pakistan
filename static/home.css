@@ -39,7 +39,7 @@ button:hover, button:active{
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   width: 27%;
-  margin: 10px 12px;
+  margin: 10px;
 
 }
 .direc-card {
@@ -47,7 +47,7 @@ button:hover, button:active{
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   width: 27%;
-  margin: 10px 12px;
+  margin: 10px;
 
 }
 .head-card {
