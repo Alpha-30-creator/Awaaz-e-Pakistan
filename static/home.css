@@ -22,8 +22,16 @@ button:hover, button:active{
   background-color: black;
   color: #148a14;
 }
-.team{
-  display: flex;
+.exec-team{
+  display: none;
+  flex-wrap: wrap;
+}
+.direc-team{
+  display: none;
+  flex-wrap: wrap;
+}
+.head-team{
+  display: none;
   flex-wrap: wrap;
 }
 .exec-card {
@@ -31,24 +39,24 @@ button:hover, button:active{
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   width: 27%;
-  margin: 10px 15px;
-  display: block;
+  margin: 10px 12px;
+
 }
 .direc-card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   width: 27%;
-  margin: 10px 15px;
-  display: block;
+  margin: 10px 12px;
+
 }
 .head-card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   width: 27%;
-  margin: 10px 15px;
-  display: block;
+  margin: 10px;
+
 }
 .card-img {
   border-radius: 5px 5px 0 0;
