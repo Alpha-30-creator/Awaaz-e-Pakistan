@@ -7,6 +7,9 @@ function myFunction() {
     x.className = "topnav";
     }
 }
+function donation(){
+  alert("This function is not available right now. Please try again later")
+}
 function Exec_team(){
   document.querySelector(".direc-team").style.display = "none";
   document.querySelector(".head-team").style.display = "none";
