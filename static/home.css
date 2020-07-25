@@ -49,14 +49,20 @@ p{
 .exec-team{
   display: none;
   flex-wrap: wrap;
+  width: 70%;
+  margin: 0px 15%;
 }
 .direc-team{
   display: none;
   flex-wrap: wrap;
+  width: 70%;
+  margin: 0px 15%;
 }
 .head-team{
   display: none;
   flex-wrap: wrap;
+  width: 70%;
+  margin: 0px 15%;
 }
 .exec-card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -283,6 +289,10 @@ p{
   .proj-details{
     width: 100%;
     margin: 0;
+  }
+  .exec-team, .direc-team, .head-team{
+    width: auto;
+    margin: auto;
   }
 }
 
