@@ -8,7 +8,7 @@ function myFunction() {
     }
 }
 function donation(){
-  alert("This function is not available right now. Please try again later")
+  alert("This function is not available right now. Please try again later.")
 }
 function Exec_team(){
   document.querySelector(".direc-team").style.display = "none";
