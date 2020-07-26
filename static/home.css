@@ -1,7 +1,7 @@
 body{
   font-family: "Montserrat";
 }
-h2{
+h2, h4{
   display: inline;
   padding-left: -30px;
   padding-right: 10px;
@@ -18,7 +18,7 @@ button{
   margin: 10px 0px;
   border-radius: 50px;
 }
-button:hover, button:active{
+button:hover{
   background-color: black;
   color: #148a14;
 }
@@ -26,6 +26,59 @@ p{
   font-size: 1vw;
   padding: 10px;
   text-align: justify;
+}
+footer{
+  background-color: #148a14;
+  margin: 10% 0px 0px 0px;
+  display: inline-block;
+  width: 100%;
+  font-family: "Montserrat";
+}
+.footer-header{
+  color:white;
+  text-align: center;
+  width:100%;
+  height:12%;
+  display: inline-block;
+  margin:0px;
+  padding-top: -1px;
+}
+.content{
+  text-align: center;
+  font-style: "Montserrat";
+}
+.content a{
+  color: white;
+  font-size: 11px;
+}
+.contact{
+  width:100%;
+  text-align: center;
+  margin: 2.5% 0px;
+}
+.contact a{
+  padding: 0px 10px;
+}
+.contact i{
+  color: white;
+  font-size: 20px;
+}
+.mail{
+  padding: 10px 0px;
+  font-size: 10px;
+  color: white;
+}
+.mail a{
+  color: white;
+}
+.link{
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+.end{
+  color: white;
+  font-size: 11px;
 }
 .proj-details{
   width: 55%;
@@ -178,6 +231,10 @@ p{
 .logo{
   display: inline;
   padding-top:7px;
+}
+.logo1{
+  display: inline;
+  padding-top:9px;
 }
 .home-header{
   background-color:#148a14;
