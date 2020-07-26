@@ -1,7 +1,7 @@
 body{
   font-family: "Montserrat";
 }
-h2, h4{
+h2{
   display: inline;
   padding-left: -30px;
   padding-right: 10px;
@@ -70,11 +70,6 @@ footer{
 }
 .mail a{
   color: white;
-}
-.link{
-  font-weight: bolder;
-  font-size: 15px;
-  padding: 10px 0px;
 }
 .end{
   color: white;
